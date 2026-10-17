@@ -18,7 +18,6 @@
       "name": "Random Coffee Collection",
       "requestIds": [
         "a24z1v0rmvbxpox5",
-        "2ixkptqxmvbxy8c0",
         "bxjaki96mvby6x23",
         "mxyxui87mvbysxnc"
       ]
@@ -110,22 +109,6 @@
       "name": "Get Random Coffee",
       "method": "GET",
       "url": "https://coffee.alexflipnote.dev/random",
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "application/json",
-          "enabled": true
-        }
-      ],
-      "params": [],
-      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
-      "bodyFormat": "json"
-    },
-    {
-      "id": "2ixkptqxmvbxy8c0",
-      "name": "Random 720p video",
-      "method": "GET",
-      "url": "https://lorem.video/720p",
       "headers": [
         {
           "key": "Accept",
