@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "name": "Offman Workspace",
+  "collections": [
+    {
+      "id": "f5k9bqvsmvbxniem",
+      "name": "JSONPlaceholder Demo",
+      "requestIds": [
+        "ka9ys1fumvbxniem",
+        "is9g5mkxmvbxniem",
+        "dubzx66bmvbxniem",
+        "djhu3b5imvbxniem",
+        "9n18bp4umvbxniem"
+      ]
+    },
+    {
+      "id": "lqmel7bnmvbxpke6",
+      "name": "Random Coffee Collection",
+      "requestIds": [
+        "a24z1v0rmvbxpox5",
+        "2ixkptqxmvbxy8c0",
+        "bxjaki96mvby6x23",
+        "mxyxui87mvbysxnc"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "ka9ys1fumvbxniem",
+      "name": "Get a post",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "is9g5mkxmvbxniem",
+      "name": "Get all posts",
+      "method": "GET",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "dubzx66bmvbxniem",
+      "name": "Create a post",
+      "method": "POST",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "djhu3b5imvbxniem",
+      "name": "Update a post",
+      "method": "PUT",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "9n18bp4umvbxniem",
+      "name": "Delete a post",
+      "method": "DELETE",
+      "url": "https://jsonplaceholder.typicode.com/posts/1",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "a24z1v0rmvbxpox5",
+      "name": "Get Random Coffee",
+      "method": "GET",
+      "url": "https://coffee.alexflipnote.dev/random",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "2ixkptqxmvbxy8c0",
+      "name": "Random 720p video",
+      "method": "GET",
+      "url": "https://lorem.video/720p",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "bxjaki96mvby6x23",
+      "name": "Random meme",
+      "method": "GET",
+      "url": "",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "mxyxui87mvbysxnc",
+      "name": "Bearer Token test",
+      "method": "GET",
+      "url": "",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    }
+  ],
+  "environments": [
+    {
+      "id": "to4xivk6mvbxniem",
+      "name": "Development",
+      "variables": [
+        {
+          "key": "BASE_URL",
+          "value": "https://jsonplaceholder.typicode.com",
+          "secret": false
+        },
+        {
+          "key": "USER_ID",
+          "value": "1",
+          "secret": false
+        }
+      ]
+    },
+    {
+      "id": "1npkmboymvbxniem",
+      "name": "Testing",
+      "variables": [
+        {
+          "key": "BASE_URL",
+          "value": "https://jsonplaceholder.typicode.com",
+          "secret": false
+        },
+        {
+          "key": "USER_ID",
+          "value": "1",
+          "secret": false
+        }
+      ]
+    },
+    {
+      "id": "luub014omvbxniem",
+      "name": "Production",
+      "variables": []
+    }
+  ]
+}
