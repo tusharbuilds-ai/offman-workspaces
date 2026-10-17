@@ -9,8 +9,7 @@
         "ka9ys1fumvbxniem",
         "is9g5mkxmvbxniem",
         "dubzx66bmvbxniem",
-        "djhu3b5imvbxniem",
-        "9n18bp4umvbxniem"
+        "djhu3b5imvbxniem"
       ]
     },
     {
@@ -75,22 +74,6 @@
       "id": "djhu3b5imvbxniem",
       "name": "Update a post",
       "method": "PUT",
-      "url": "https://jsonplaceholder.typicode.com/posts/1",
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "application/json",
-          "enabled": true
-        }
-      ],
-      "params": [],
-      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
-      "bodyFormat": "json"
-    },
-    {
-      "id": "9n18bp4umvbxniem",
-      "name": "Delete a post",
-      "method": "DELETE",
       "url": "https://jsonplaceholder.typicode.com/posts/1",
       "headers": [
         {
