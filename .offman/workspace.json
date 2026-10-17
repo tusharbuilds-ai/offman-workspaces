@@ -16,7 +16,15 @@
       "id": "lqmel7bnmvbxpke6",
       "name": "Random Coffee Collection",
       "requestIds": [
-        "mxyxui87mvbysxnc"
+        "mxyxui87mvbysxnc",
+        "dxn5kmpqmvc2ohc0"
+      ]
+    },
+    {
+      "id": "qasj9ffxmvc2s7zs",
+      "name": "Next MCU movies",
+      "requestIds": [
+        "32sg8nd2mvc2s9fm"
       ]
     }
   ],
@@ -99,6 +107,38 @@
         {
           "key": "Authorization",
           "value": "Bearer my-test-token-123",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "dxn5kmpqmvc2ohc0",
+      "name": "Random SVG generator",
+      "method": "GET",
+      "url": "",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "params": [],
+      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
+      "bodyFormat": "json"
+    },
+    {
+      "id": "32sg8nd2mvc2s9fm",
+      "name": "Next MCU movies time",
+      "method": "GET",
+      "url": "https://www.whenisthenextmcufilm.com/api",
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
           "enabled": true
         }
       ],
