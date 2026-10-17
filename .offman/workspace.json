@@ -16,7 +16,6 @@
       "id": "lqmel7bnmvbxpke6",
       "name": "Random Coffee Collection",
       "requestIds": [
-        "a24z1v0rmvbxpox5",
         "mxyxui87mvbysxnc"
       ]
     }
@@ -75,22 +74,6 @@
       "name": "Update a post",
       "method": "PUT",
       "url": "https://jsonplaceholder.typicode.com/posts/1",
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "application/json",
-          "enabled": true
-        }
-      ],
-      "params": [],
-      "body": "{\n  \"title\": \"Offman Test\",\n  \"body\": \"Testing a request from Offman\",\n  \"userId\": 1\n}",
-      "bodyFormat": "json"
-    },
-    {
-      "id": "a24z1v0rmvbxpox5",
-      "name": "Get Random Coffee",
-      "method": "GET",
-      "url": "https://coffee.alexflipnote.dev/random",
       "headers": [
         {
           "key": "Accept",
